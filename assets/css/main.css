@@ -166,6 +166,11 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	p.subheader {
+		margin: -1em 0 0 0;
+		font-size: 2rem;
+	}
+
 	h1 {
 		font-size: 2.75em;
 		font-weight: 700;
@@ -200,7 +205,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.25em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2462,7 +2467,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 900;
 		height: 3.5em;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.25em;
 		line-height: 3.45em;
 		overflow: hidden;
 		padding: 0 1.25em 0 1.6em;
@@ -2584,6 +2589,7 @@ input, select, textarea {
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 		}
 
 			.tiles article > .image {
@@ -2676,7 +2682,7 @@ input, select, textarea {
 					width: 100%;
 					max-height: 0;
 					line-height: 1.5;
-					margin-top: 0.35em;
+					margin-top: 0.25em;
 					opacity: 0;
 				}
 
@@ -2713,6 +2719,8 @@ input, select, textarea {
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
+				filter: brightness(40%);
+				transition: filter 1s ease-in-out;
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
@@ -2816,7 +2824,7 @@ input, select, textarea {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
+			letter-spacing: 0.25em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -2875,7 +2883,7 @@ input, select, textarea {
 						border: 0;
 						font-size: 0.8em;
 						font-weight: 900;
-						letter-spacing: 0.35em;
+						letter-spacing: 0.25em;
 						text-transform: uppercase;
 					}
 
